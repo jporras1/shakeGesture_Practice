@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3B8CE27023730409006D80CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE26F23730409006D80CD /* AppDelegate.swift */; };
 		3B8CE27223730409006D80CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE27123730409006D80CD /* ViewController.swift */; };
-		3B8CE27523730409006D80CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8CE27323730409006D80CD /* Main.storyboard */; };
 		3B8CE2772373040D006D80CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8CE2762373040D006D80CD /* Assets.xcassets */; };
 		3B8CE27A2373040D006D80CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8CE2782373040D006D80CD /* LaunchScreen.storyboard */; };
 		3B8CE2852373040E006D80CD /* shakeGesture_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE2842373040E006D80CD /* shakeGesture_PracticeUITests.swift */; };
+		3B8CE29023730675006D80CD /* APIclient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE28F23730674006D80CD /* APIclient.swift */; };
+		3B8CE2922373068F006D80CD /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE2912373068F006D80CD /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		3B8CE26C23730409006D80CD /* shakeGesture_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shakeGesture_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8CE26F23730409006D80CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B8CE27123730409006D80CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B8CE27423730409006D80CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B8CE2762373040D006D80CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8CE2792373040D006D80CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8CE27B2373040D006D80CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8CE2802373040E006D80CD /* shakeGesture_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeGesture_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8CE2842373040E006D80CD /* shakeGesture_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeGesture_PracticeUITests.swift; sourceTree = "<group>"; };
 		3B8CE2862373040E006D80CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8CE28F23730674006D80CD /* APIclient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIclient.swift; sourceTree = "<group>"; };
+		3B8CE2912373068F006D80CD /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				3B8CE26F23730409006D80CD /* AppDelegate.swift */,
+				3B8CE28F23730674006D80CD /* APIclient.swift */,
+				3B8CE2912373068F006D80CD /* Pokemon.swift */,
 				3B8CE27123730409006D80CD /* ViewController.swift */,
-				3B8CE27323730409006D80CD /* Main.storyboard */,
 				3B8CE2762373040D006D80CD /* Assets.xcassets */,
 				3B8CE2782373040D006D80CD /* LaunchScreen.storyboard */,
 				3B8CE27B2373040D006D80CD /* Info.plist */,
@@ -179,7 +182,6 @@
 			files = (
 				3B8CE27A2373040D006D80CD /* LaunchScreen.storyboard in Resources */,
 				3B8CE2772373040D006D80CD /* Assets.xcassets in Resources */,
-				3B8CE27523730409006D80CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8CE27223730409006D80CD /* ViewController.swift in Sources */,
+				3B8CE2922373068F006D80CD /* Pokemon.swift in Sources */,
 				3B8CE27023730409006D80CD /* AppDelegate.swift in Sources */,
+				3B8CE29023730675006D80CD /* APIclient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +225,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B8CE27323730409006D80CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B8CE27423730409006D80CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B8CE2782373040D006D80CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
